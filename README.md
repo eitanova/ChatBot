@@ -6,7 +6,9 @@ Features:
   2. Animated open & close chat bot window
 
 JSON struct:
+
   A. Attributes:
+  
     1. **question** - Text that contains information before the options 
     
     2. **answer** - User's options in array format (i.e = "answer" : [ "option A", "option B" ])
