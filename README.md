@@ -8,7 +8,9 @@ Features:
 JSON struct:
   A. Attributes:
     1. **question** - Text that contains information before the options 
+    
     2. **answer** - User's options in array format (i.e = "answer" : [ "option A", "option B" ])
+    
     3. **children** - The next question & answer. shows the children's question by the user previous option index (explained later)
          children object exmaple = "children" : [
         { 
