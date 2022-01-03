@@ -1,0 +1,28 @@
+{
+    "question" : "Hey! my name is Bob and im your assistance for today",
+    "answer": [
+      "IT Support",
+      "Customer services"
+    ],
+    "children" : [
+        {
+            "question" : "Please choose a subject",
+            "answer" : ["Server", "Computer" ],
+            "children" :[
+                {
+                    "answer" : "For server information please content Administrator",
+                    "question" : null
+                },
+                {
+                    "answer" : "For computer info please content Administrator",
+                    "question" : null
+                }
+            ]
+            
+        },
+        {
+            "answer" : "please contact sells team",
+            "question" : null
+        }
+    ]
+}

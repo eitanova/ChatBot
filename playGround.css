@@ -1,0 +1,94 @@
+body{
+  font-family: Gill Sans MT;
+}
+#chatbot_icon {
+  bottom:40px;
+  left: 50px;
+  position: absolute;
+}
+.chatbot_window{
+  display: none;
+  position: absolute;
+  left: 30px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 0px 9.4px 0.6px rgba(0, 0, 0, 0.3);
+  bottom: 120px;
+}
+.chatbot_content {
+  /*display: none;*/
+  background-color: white;
+  width: 350px;
+  height: 390px;
+  overflow-y: auto;
+}
+.chatbot_header{
+  border-radius: 10px 10px 0px 0px;
+  background-color: #537b87;
+  width: 350px;
+  height: 50px;
+  color:white;
+  text-align: center;
+  line-height: 250%;
+}
+.chatbot_frame {
+  border-width: 0px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 12px;
+  background-color: #e4e3e3;
+  margin: 10px;
+  width: 330px;
+  height: 190px;
+  overflow-y: hidden;
+}
+.chatbot_frame_text
+{
+  width: 260px;
+  font-size: 11pt;
+  line-height: 18px;
+  margin: 10px 0px 0px 20px;
+}
+.chatbot_option {
+  border-width: 0px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 11pt;
+
+}
+.chatbot_option:hover{
+  background-color: #b3c8cf;
+}
+.chatbot_option_text{
+  color: red;
+}
+
+
+
+/*CUSTOM SCROLL BAR*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
