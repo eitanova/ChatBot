@@ -24,6 +24,7 @@ JSON struct:
       ]
     
   B. Implementation:
+  
   The basic implementaion of the JSON file with chatbot option is using the question attribute to write the question (or another text that will show at 
   the head of the block), and answer to show the user his options.
   
