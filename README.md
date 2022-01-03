@@ -1,11 +1,12 @@
 # ChatBot
 ChatBot for website's
 
-Features:
+**Features:**
   1. Reading questions & answers from JSON file
   2. Animated open & close chat bot window
 
-JSON struct:
+
+**JSON file:**
 
   A. Attributes:
   
